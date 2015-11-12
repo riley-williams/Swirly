@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF606CD1BF504FB00E8EBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606CC1BF504FB00E8EBC8 /* main.m */; };
+		BFF606D01BF504FB00E8EBC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606CF1BF504FB00E8EBC8 /* AppDelegate.m */; };
+		BFF606D31BF504FB00E8EBC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606D21BF504FB00E8EBC8 /* ViewController.m */; };
+		BFF606D61BF504FB00E8EBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF606D41BF504FB00E8EBC8 /* Main.storyboard */; };
+		BFF606D91BF504FB00E8EBC8 /* Swirly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFF606D71BF504FB00E8EBC8 /* Swirly.xcdatamodeld */; };
+		BFF606DB1BF504FB00E8EBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF606DA1BF504FB00E8EBC8 /* Assets.xcassets */; };
+		BFF606DE1BF504FB00E8EBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF606DC1BF504FB00E8EBC8 /* LaunchScreen.storyboard */; };
+		BFF606E91BF504FB00E8EBC8 /* SwirlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606E81BF504FB00E8EBC8 /* SwirlyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF606E51BF504FB00E8EBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF606C01BF504FB00E8EBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF606C71BF504FB00E8EBC8;
+			remoteInfo = Swirly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF606C81BF504FB00E8EBC8 /* Swirly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swirly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF606CC1BF504FB00E8EBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF606CE1BF504FB00E8EBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFF606CF1BF504FB00E8EBC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFF606D11BF504FB00E8EBC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFF606D21BF504FB00E8EBC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFF606D51BF504FB00E8EBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF606D81BF504FB00E8EBC8 /* Swirly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swirly.xcdatamodel; sourceTree = "<group>"; };
+		BFF606DA1BF504FB00E8EBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF606DD1BF504FB00E8EBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFF606DF1BF504FB00E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF606E41BF504FB00E8EBC8 /* SwirlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwirlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF606E81BF504FB00E8EBC8 /* SwirlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwirlyTests.m; sourceTree = "<group>"; };
+		BFF606EA1BF504FB00E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF606C51BF504FB00E8EBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF606E11BF504FB00E8EBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF606BF1BF504FB00E8EBC8 = {
+			isa = PBXGroup;
+			children = (
+				BFF606CA1BF504FB00E8EBC8 /* Swirly */,
+				BFF606E71BF504FB00E8EBC8 /* SwirlyTests */,
+				BFF606C91BF504FB00E8EBC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF606C91BF504FB00E8EBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF606C81BF504FB00E8EBC8 /* Swirly.app */,
+				BFF606E41BF504FB00E8EBC8 /* SwirlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF606CA1BF504FB00E8EBC8 /* Swirly */ = {
+			isa = PBXGroup;
+			children = (
+				BFF606CE1BF504FB00E8EBC8 /* AppDelegate.h */,
+				BFF606CF1BF504FB00E8EBC8 /* AppDelegate.m */,
+				BFF606D11BF504FB00E8EBC8 /* ViewController.h */,
+				BFF606D21BF504FB00E8EBC8 /* ViewController.m */,
+				BFF606D41BF504FB00E8EBC8 /* Main.storyboard */,
+				BFF606DA1BF504FB00E8EBC8 /* Assets.xcassets */,
+				BFF606DC1BF504FB00E8EBC8 /* LaunchScreen.storyboard */,
+				BFF606DF1BF504FB00E8EBC8 /* Info.plist */,
+				BFF606D71BF504FB00E8EBC8 /* Swirly.xcdatamodeld */,
+				BFF606CB1BF504FB00E8EBC8 /* Supporting Files */,
+			);
+			path = Swirly;
+			sourceTree = "<group>";
+		};
+		BFF606CB1BF504FB00E8EBC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF606CC1BF504FB00E8EBC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF606E71BF504FB00E8EBC8 /* SwirlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF606E81BF504FB00E8EBC8 /* SwirlyTests.m */,
+				BFF606EA1BF504FB00E8EBC8 /* Info.plist */,
+			);
+			path = SwirlyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF606C71BF504FB00E8EBC8 /* Swirly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF606ED1BF504FB00E8EBC8 /* Build configuration list for PBXNativeTarget "Swirly" */;
+			buildPhases = (
+				BFF606C41BF504FB00E8EBC8 /* Sources */,
+				BFF606C51BF504FB00E8EBC8 /* Frameworks */,
+				BFF606C61BF504FB00E8EBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swirly;
+			productName = Swirly;
+			productReference = BFF606C81BF504FB00E8EBC8 /* Swirly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF606E31BF504FB00E8EBC8 /* SwirlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF606F01BF504FB00E8EBC8 /* Build configuration list for PBXNativeTarget "SwirlyTests" */;
+			buildPhases = (
+				BFF606E01BF504FB00E8EBC8 /* Sources */,
+				BFF606E11BF504FB00E8EBC8 /* Frameworks */,
+				BFF606E21BF504FB00E8EBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF606E61BF504FB00E8EBC8 /* PBXTargetDependency */,
+			);
+			name = SwirlyTests;
+			productName = SwirlyTests;
+			productReference = BFF606E41BF504FB00E8EBC8 /* SwirlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF606C01BF504FB00E8EBC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Riley Williams";
+				TargetAttributes = {
+					BFF606C71BF504FB00E8EBC8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = BD5L3C9JKH;
+					};
+					BFF606E31BF504FB00E8EBC8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = BD5L3C9JKH;
+						TestTargetID = BFF606C71BF504FB00E8EBC8;
+					};
+				};
+			};
+			buildConfigurationList = BFF606C31BF504FB00E8EBC8 /* Build configuration list for PBXProject "Swirly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF606BF1BF504FB00E8EBC8;
+			productRefGroup = BFF606C91BF504FB00E8EBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF606C71BF504FB00E8EBC8 /* Swirly */,
+				BFF606E31BF504FB00E8EBC8 /* SwirlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF606C61BF504FB00E8EBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF606DE1BF504FB00E8EBC8 /* LaunchScreen.storyboard in Resources */,
+				BFF606DB1BF504FB00E8EBC8 /* Assets.xcassets in Resources */,
+				BFF606D61BF504FB00E8EBC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF606E21BF504FB00E8EBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF606C41BF504FB00E8EBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF606D31BF504FB00E8EBC8 /* ViewController.m in Sources */,
+				BFF606D91BF504FB00E8EBC8 /* Swirly.xcdatamodeld in Sources */,
+				BFF606D01BF504FB00E8EBC8 /* AppDelegate.m in Sources */,
+				BFF606CD1BF504FB00E8EBC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF606E01BF504FB00E8EBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF606E91BF504FB00E8EBC8 /* SwirlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF606E61BF504FB00E8EBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF606C71BF504FB00E8EBC8 /* Swirly */;
+			targetProxy = BFF606E51BF504FB00E8EBC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF606D41BF504FB00E8EBC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF606D51BF504FB00E8EBC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFF606DC1BF504FB00E8EBC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF606DD1BF504FB00E8EBC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF606EB1BF504FB00E8EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFF606EC1BF504FB00E8EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF606EE1BF504FB00E8EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swirly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riley-williams.Swirly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFF606EF1BF504FB00E8EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swirly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riley-williams.Swirly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFF606F11BF504FB00E8EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwirlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riley-williams.SwirlyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swirly.app/Swirly";
+			};
+			name = Debug;
+		};
+		BFF606F21BF504FB00E8EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwirlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riley-williams.SwirlyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swirly.app/Swirly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF606C31BF504FB00E8EBC8 /* Build configuration list for PBXProject "Swirly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF606EB1BF504FB00E8EBC8 /* Debug */,
+				BFF606EC1BF504FB00E8EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF606ED1BF504FB00E8EBC8 /* Build configuration list for PBXNativeTarget "Swirly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF606EE1BF504FB00E8EBC8 /* Debug */,
+				BFF606EF1BF504FB00E8EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFF606F01BF504FB00E8EBC8 /* Build configuration list for PBXNativeTarget "SwirlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF606F11BF504FB00E8EBC8 /* Debug */,
+				BFF606F21BF504FB00E8EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFF606D71BF504FB00E8EBC8 /* Swirly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFF606D81BF504FB00E8EBC8 /* Swirly.xcdatamodel */,
+			);
+			currentVersion = BFF606D81BF504FB00E8EBC8 /* Swirly.xcdatamodel */;
+			path = Swirly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFF606C01BF504FB00E8EBC8 /* Project object */;
+}
