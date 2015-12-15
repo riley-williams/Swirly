@@ -18,18 +18,18 @@
 		BFF606F61BF5061F00E8EBC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF606F31BF5061F00E8EBC8 /* CoreGraphics.framework */; };
 		BFF606F71BF5061F00E8EBC8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF606F41BF5061F00E8EBC8 /* CoreImage.framework */; };
 		BFF606F81BF5061F00E8EBC8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF606F51BF5061F00E8EBC8 /* GLKit.framework */; };
-		BFF606FE1BF5068F00E8EBC8 /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606FD1BF5068F00E8EBC8 /* RenderView.m */; settings = {ASSET_TAGS = (); }; };
-		BFF607011BF50D6100E8EBC8 /* SwirlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607001BF50D6100E8EBC8 /* SwirlModel.m */; settings = {ASSET_TAGS = (); }; };
-		BFF607041BF50DF700E8EBC8 /* SwirlLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607031BF50DF700E8EBC8 /* SwirlLine.m */; settings = {ASSET_TAGS = (); }; };
-		BFF607081BF5107F00E8EBC8 /* SwirlObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607071BF5107F00E8EBC8 /* SwirlObject.m */; settings = {ASSET_TAGS = (); }; };
-		BFF6070B1BF530DB00E8EBC8 /* SwirlStrokeSolid.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6070A1BF530DB00E8EBC8 /* SwirlStrokeSolid.m */; settings = {ASSET_TAGS = (); }; };
-		BFF6070E1BF5344E00E8EBC8 /* PointCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6070D1BF5344E00E8EBC8 /* PointCache.m */; settings = {ASSET_TAGS = (); }; };
-		BFF607141BFA227800E8EBC8 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607131BFA227800E8EBC8 /* TreeNode.m */; settings = {ASSET_TAGS = (); }; };
-		BFF607181BFA255200E8EBC8 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607171BFA255200E8EBC8 /* Tree.m */; settings = {ASSET_TAGS = (); }; };
-		BFF6071C1BFA281300E8EBC8 /* Force.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6071B1BFA281300E8EBC8 /* Force.m */; settings = {ASSET_TAGS = (); }; };
-		BFF6071F1BFA3CE200E8EBC8 /* TreeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6071E1BFA3CE200E8EBC8 /* TreeRenderer.m */; settings = {ASSET_TAGS = (); }; };
-		BFF607221BFA48D600E8EBC8 /* TreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607211BFA48D600E8EBC8 /* TreeView.m */; settings = {ASSET_TAGS = (); }; };
-		BFF607251BFA49E900E8EBC8 /* TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607241BFA49E900E8EBC8 /* TreeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BFF606FE1BF5068F00E8EBC8 /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606FD1BF5068F00E8EBC8 /* RenderView.m */; };
+		BFF607011BF50D6100E8EBC8 /* SwirlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607001BF50D6100E8EBC8 /* SwirlModel.m */; };
+		BFF607041BF50DF700E8EBC8 /* SwirlLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607031BF50DF700E8EBC8 /* SwirlLine.m */; };
+		BFF607081BF5107F00E8EBC8 /* SwirlObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607071BF5107F00E8EBC8 /* SwirlObject.m */; };
+		BFF6070B1BF530DB00E8EBC8 /* SwirlStrokeSolid.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6070A1BF530DB00E8EBC8 /* SwirlStrokeSolid.m */; };
+		BFF6070E1BF5344E00E8EBC8 /* PointCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6070D1BF5344E00E8EBC8 /* PointCache.m */; };
+		BFF607141BFA227800E8EBC8 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607131BFA227800E8EBC8 /* TreeNode.m */; };
+		BFF607181BFA255200E8EBC8 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607171BFA255200E8EBC8 /* Tree.m */; };
+		BFF6071C1BFA281300E8EBC8 /* Force.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6071B1BFA281300E8EBC8 /* Force.m */; };
+		BFF6071F1BFA3CE200E8EBC8 /* TreeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6071E1BFA3CE200E8EBC8 /* TreeRenderer.m */; };
+		BFF607221BFA48D600E8EBC8 /* TreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607211BFA48D600E8EBC8 /* TreeView.m */; };
+		BFF607251BFA49E900E8EBC8 /* TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607241BFA49E900E8EBC8 /* TreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF7D187B1C1F9EEE00D36C85 /* Tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tree2.png; sourceTree = "<group>"; };
+		BF7D187C1C1F9EEE00D36C85 /* Swirl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swirl1.png; sourceTree = "<group>"; };
+		BF7D187D1C1F9EEE00D36C85 /* Swirl2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swirl2.png; sourceTree = "<group>"; };
+		BF7D187E1C1F9EEE00D36C85 /* Tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tree1.png; sourceTree = "<group>"; };
 		BFF606C81BF504FB00E8EBC8 /* Swirly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swirly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF606CC1BF504FB00E8EBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFF606CE1BF504FB00E8EBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +113,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF7D18831C1F9EF600D36C85 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D187E1C1F9EEE00D36C85 /* Tree1.png */,
+				BF7D187B1C1F9EEE00D36C85 /* Tree2.png */,
+				BF7D187C1C1F9EEE00D36C85 /* Swirl1.png */,
+				BF7D187D1C1F9EEE00D36C85 /* Swirl2.png */,
+			);
+			name = Screenshots;
+			sourceTree = "<group>";
+		};
 		BFF606BF1BF504FB00E8EBC8 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +156,7 @@
 				BFF606DA1BF504FB00E8EBC8 /* Assets.xcassets */,
 				BFF606DC1BF504FB00E8EBC8 /* LaunchScreen.storyboard */,
 				BFF606DF1BF504FB00E8EBC8 /* Info.plist */,
+				BF7D18831C1F9EF600D36C85 /* Screenshots */,
 				BFF606D71BF504FB00E8EBC8 /* Swirly.xcdatamodeld */,
 				BFF606CB1BF504FB00E8EBC8 /* Supporting Files */,
 			);
@@ -526,6 +542,7 @@
 				BFF606EF1BF504FB00E8EBC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFF606F01BF504FB00E8EBC8 /* Build configuration list for PBXNativeTarget "SwirlyTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +551,7 @@
 				BFF606F21BF504FB00E8EBC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
