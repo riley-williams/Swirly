@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PointCacheable.h
 //  Swirly
 //
 //  Created by Riley Williams on 11/12/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@protocol PointCacheable <NSObject>
 
+-(CGFloat)calculateForTime:(float)time;
 
 @end
-

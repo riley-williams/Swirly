@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		BFF606CD1BF504FB00E8EBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606CC1BF504FB00E8EBC8 /* main.m */; };
 		BFF606D01BF504FB00E8EBC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606CF1BF504FB00E8EBC8 /* AppDelegate.m */; };
-		BFF606D31BF504FB00E8EBC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606D21BF504FB00E8EBC8 /* ViewController.m */; };
+		BFF606D31BF504FB00E8EBC8 /* SwirlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606D21BF504FB00E8EBC8 /* SwirlViewController.m */; };
 		BFF606D61BF504FB00E8EBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF606D41BF504FB00E8EBC8 /* Main.storyboard */; };
 		BFF606D91BF504FB00E8EBC8 /* Swirly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFF606D71BF504FB00E8EBC8 /* Swirly.xcdatamodeld */; };
 		BFF606DB1BF504FB00E8EBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF606DA1BF504FB00E8EBC8 /* Assets.xcassets */; };
 		BFF606DE1BF504FB00E8EBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF606DC1BF504FB00E8EBC8 /* LaunchScreen.storyboard */; };
 		BFF606E91BF504FB00E8EBC8 /* SwirlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606E81BF504FB00E8EBC8 /* SwirlyTests.m */; };
+		BFF606F61BF5061F00E8EBC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF606F31BF5061F00E8EBC8 /* CoreGraphics.framework */; };
+		BFF606F71BF5061F00E8EBC8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF606F41BF5061F00E8EBC8 /* CoreImage.framework */; };
+		BFF606F81BF5061F00E8EBC8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF606F51BF5061F00E8EBC8 /* GLKit.framework */; };
+		BFF606FE1BF5068F00E8EBC8 /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF606FD1BF5068F00E8EBC8 /* RenderView.m */; settings = {ASSET_TAGS = (); }; };
+		BFF607011BF50D6100E8EBC8 /* SwirlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607001BF50D6100E8EBC8 /* SwirlModel.m */; settings = {ASSET_TAGS = (); }; };
+		BFF607041BF50DF700E8EBC8 /* SwirlLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607031BF50DF700E8EBC8 /* SwirlLine.m */; settings = {ASSET_TAGS = (); }; };
+		BFF607081BF5107F00E8EBC8 /* SwirlObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607071BF5107F00E8EBC8 /* SwirlObject.m */; settings = {ASSET_TAGS = (); }; };
+		BFF6070B1BF530DB00E8EBC8 /* SwirlStrokeSolid.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6070A1BF530DB00E8EBC8 /* SwirlStrokeSolid.m */; settings = {ASSET_TAGS = (); }; };
+		BFF6070E1BF5344E00E8EBC8 /* PointCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6070D1BF5344E00E8EBC8 /* PointCache.m */; settings = {ASSET_TAGS = (); }; };
+		BFF607141BFA227800E8EBC8 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607131BFA227800E8EBC8 /* TreeNode.m */; settings = {ASSET_TAGS = (); }; };
+		BFF607181BFA255200E8EBC8 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607171BFA255200E8EBC8 /* Tree.m */; settings = {ASSET_TAGS = (); }; };
+		BFF6071C1BFA281300E8EBC8 /* Force.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6071B1BFA281300E8EBC8 /* Force.m */; settings = {ASSET_TAGS = (); }; };
+		BFF6071F1BFA3CE200E8EBC8 /* TreeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6071E1BFA3CE200E8EBC8 /* TreeRenderer.m */; settings = {ASSET_TAGS = (); }; };
+		BFF607221BFA48D600E8EBC8 /* TreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607211BFA48D600E8EBC8 /* TreeView.m */; settings = {ASSET_TAGS = (); }; };
+		BFF607251BFA49E900E8EBC8 /* TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF607241BFA49E900E8EBC8 /* TreeViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +47,8 @@
 		BFF606CC1BF504FB00E8EBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFF606CE1BF504FB00E8EBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFF606CF1BF504FB00E8EBC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFF606D11BF504FB00E8EBC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFF606D21BF504FB00E8EBC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFF606D11BF504FB00E8EBC8 /* SwirlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwirlViewController.h; sourceTree = "<group>"; };
+		BFF606D21BF504FB00E8EBC8 /* SwirlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwirlViewController.m; sourceTree = "<group>"; };
 		BFF606D51BF504FB00E8EBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFF606D81BF504FB00E8EBC8 /* Swirly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swirly.xcdatamodel; sourceTree = "<group>"; };
 		BFF606DA1BF504FB00E8EBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +57,35 @@
 		BFF606E41BF504FB00E8EBC8 /* SwirlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwirlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF606E81BF504FB00E8EBC8 /* SwirlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwirlyTests.m; sourceTree = "<group>"; };
 		BFF606EA1BF504FB00E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF606F31BF5061F00E8EBC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFF606F41BF5061F00E8EBC8 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		BFF606F51BF5061F00E8EBC8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		BFF606FC1BF5068F00E8EBC8 /* RenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderView.h; sourceTree = "<group>"; };
+		BFF606FD1BF5068F00E8EBC8 /* RenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderView.m; sourceTree = "<group>"; };
+		BFF606FF1BF50D6100E8EBC8 /* SwirlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwirlModel.h; sourceTree = "<group>"; };
+		BFF607001BF50D6100E8EBC8 /* SwirlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwirlModel.m; sourceTree = "<group>"; };
+		BFF607021BF50DF700E8EBC8 /* SwirlLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwirlLine.h; sourceTree = "<group>"; };
+		BFF607031BF50DF700E8EBC8 /* SwirlLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwirlLine.m; sourceTree = "<group>"; };
+		BFF607061BF5107F00E8EBC8 /* SwirlObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwirlObject.h; path = ../SwirlObject.h; sourceTree = "<group>"; };
+		BFF607071BF5107F00E8EBC8 /* SwirlObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwirlObject.m; path = ../SwirlObject.m; sourceTree = "<group>"; };
+		BFF607091BF530DB00E8EBC8 /* SwirlStrokeSolid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwirlStrokeSolid.h; sourceTree = "<group>"; };
+		BFF6070A1BF530DB00E8EBC8 /* SwirlStrokeSolid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwirlStrokeSolid.m; sourceTree = "<group>"; };
+		BFF6070C1BF5344E00E8EBC8 /* PointCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointCache.h; sourceTree = "<group>"; };
+		BFF6070D1BF5344E00E8EBC8 /* PointCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointCache.m; sourceTree = "<group>"; };
+		BFF6070F1BF5582D00E8EBC8 /* PointCacheable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointCacheable.h; sourceTree = "<group>"; };
+		BFF607121BFA227800E8EBC8 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeNode.h; path = ../TreeNode.h; sourceTree = "<group>"; };
+		BFF607131BFA227800E8EBC8 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeNode.m; path = ../TreeNode.m; sourceTree = "<group>"; };
+		BFF607161BFA255200E8EBC8 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		BFF607171BFA255200E8EBC8 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		BFF607191BFA26BD00E8EBC8 /* PhysicsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsObject.h; sourceTree = "<group>"; };
+		BFF6071A1BFA281300E8EBC8 /* Force.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Force.h; path = ../Force.h; sourceTree = "<group>"; };
+		BFF6071B1BFA281300E8EBC8 /* Force.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Force.m; path = ../Force.m; sourceTree = "<group>"; };
+		BFF6071D1BFA3CE200E8EBC8 /* TreeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeRenderer.h; sourceTree = "<group>"; };
+		BFF6071E1BFA3CE200E8EBC8 /* TreeRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeRenderer.m; sourceTree = "<group>"; };
+		BFF607201BFA48D600E8EBC8 /* TreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeView.h; sourceTree = "<group>"; };
+		BFF607211BFA48D600E8EBC8 /* TreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeView.m; sourceTree = "<group>"; };
+		BFF607231BFA49E900E8EBC8 /* TreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewController.h; sourceTree = "<group>"; };
+		BFF607241BFA49E900E8EBC8 /* TreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF606F61BF5061F00E8EBC8 /* CoreGraphics.framework in Frameworks */,
+				BFF606F71BF5061F00E8EBC8 /* CoreImage.framework in Frameworks */,
+				BFF606F81BF5061F00E8EBC8 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,9 @@
 		BFF606BF1BF504FB00E8EBC8 = {
 			isa = PBXGroup;
 			children = (
+				BFF606F31BF5061F00E8EBC8 /* CoreGraphics.framework */,
+				BFF606F41BF5061F00E8EBC8 /* CoreImage.framework */,
+				BFF606F51BF5061F00E8EBC8 /* GLKit.framework */,
 				BFF606CA1BF504FB00E8EBC8 /* Swirly */,
 				BFF606E71BF504FB00E8EBC8 /* SwirlyTests */,
 				BFF606C91BF504FB00E8EBC8 /* Products */,
@@ -85,9 +135,9 @@
 			children = (
 				BFF606CE1BF504FB00E8EBC8 /* AppDelegate.h */,
 				BFF606CF1BF504FB00E8EBC8 /* AppDelegate.m */,
-				BFF606D11BF504FB00E8EBC8 /* ViewController.h */,
-				BFF606D21BF504FB00E8EBC8 /* ViewController.m */,
 				BFF606D41BF504FB00E8EBC8 /* Main.storyboard */,
+				BFF607261BFA4AA000E8EBC8 /* Swirl */,
+				BFF607151BFA22AD00E8EBC8 /* Tree */,
 				BFF606DA1BF504FB00E8EBC8 /* Assets.xcassets */,
 				BFF606DC1BF504FB00E8EBC8 /* LaunchScreen.storyboard */,
 				BFF606DF1BF504FB00E8EBC8 /* Info.plist */,
@@ -112,6 +162,64 @@
 				BFF606EA1BF504FB00E8EBC8 /* Info.plist */,
 			);
 			path = SwirlyTests;
+			sourceTree = "<group>";
+		};
+		BFF607151BFA22AD00E8EBC8 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				BFF607281BFA4AB000E8EBC8 /* UI */,
+				BFF607191BFA26BD00E8EBC8 /* PhysicsObject.h */,
+				BFF6071A1BFA281300E8EBC8 /* Force.h */,
+				BFF6071B1BFA281300E8EBC8 /* Force.m */,
+				BFF6071D1BFA3CE200E8EBC8 /* TreeRenderer.h */,
+				BFF6071E1BFA3CE200E8EBC8 /* TreeRenderer.m */,
+				BFF607161BFA255200E8EBC8 /* Tree.h */,
+				BFF607171BFA255200E8EBC8 /* Tree.m */,
+				BFF607121BFA227800E8EBC8 /* TreeNode.h */,
+				BFF607131BFA227800E8EBC8 /* TreeNode.m */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+		BFF607261BFA4AA000E8EBC8 /* Swirl */ = {
+			isa = PBXGroup;
+			children = (
+				BFF607271BFA4AA900E8EBC8 /* UI */,
+				BFF606FF1BF50D6100E8EBC8 /* SwirlModel.h */,
+				BFF607001BF50D6100E8EBC8 /* SwirlModel.m */,
+				BFF607061BF5107F00E8EBC8 /* SwirlObject.h */,
+				BFF607071BF5107F00E8EBC8 /* SwirlObject.m */,
+				BFF607021BF50DF700E8EBC8 /* SwirlLine.h */,
+				BFF607031BF50DF700E8EBC8 /* SwirlLine.m */,
+				BFF607091BF530DB00E8EBC8 /* SwirlStrokeSolid.h */,
+				BFF6070A1BF530DB00E8EBC8 /* SwirlStrokeSolid.m */,
+				BFF6070C1BF5344E00E8EBC8 /* PointCache.h */,
+				BFF6070D1BF5344E00E8EBC8 /* PointCache.m */,
+				BFF6070F1BF5582D00E8EBC8 /* PointCacheable.h */,
+			);
+			name = Swirl;
+			sourceTree = "<group>";
+		};
+		BFF607271BFA4AA900E8EBC8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BFF606D11BF504FB00E8EBC8 /* SwirlViewController.h */,
+				BFF606D21BF504FB00E8EBC8 /* SwirlViewController.m */,
+				BFF606FC1BF5068F00E8EBC8 /* RenderView.h */,
+				BFF606FD1BF5068F00E8EBC8 /* RenderView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BFF607281BFA4AB000E8EBC8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BFF607231BFA49E900E8EBC8 /* TreeViewController.h */,
+				BFF607241BFA49E900E8EBC8 /* TreeViewController.m */,
+				BFF607201BFA48D600E8EBC8 /* TreeView.h */,
+				BFF607211BFA48D600E8EBC8 /* TreeView.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +324,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF606D31BF504FB00E8EBC8 /* ViewController.m in Sources */,
+				BFF6071F1BFA3CE200E8EBC8 /* TreeRenderer.m in Sources */,
+				BFF607081BF5107F00E8EBC8 /* SwirlObject.m in Sources */,
+				BFF606D31BF504FB00E8EBC8 /* SwirlViewController.m in Sources */,
+				BFF607011BF50D6100E8EBC8 /* SwirlModel.m in Sources */,
+				BFF6070E1BF5344E00E8EBC8 /* PointCache.m in Sources */,
+				BFF607221BFA48D600E8EBC8 /* TreeView.m in Sources */,
+				BFF607041BF50DF700E8EBC8 /* SwirlLine.m in Sources */,
+				BFF607141BFA227800E8EBC8 /* TreeNode.m in Sources */,
+				BFF6070B1BF530DB00E8EBC8 /* SwirlStrokeSolid.m in Sources */,
+				BFF606FE1BF5068F00E8EBC8 /* RenderView.m in Sources */,
 				BFF606D91BF504FB00E8EBC8 /* Swirly.xcdatamodeld in Sources */,
+				BFF607181BFA255200E8EBC8 /* Tree.m in Sources */,
 				BFF606D01BF504FB00E8EBC8 /* AppDelegate.m in Sources */,
+				BFF6071C1BFA281300E8EBC8 /* Force.m in Sources */,
+				BFF607251BFA49E900E8EBC8 /* TreeViewController.m in Sources */,
 				BFF606CD1BF504FB00E8EBC8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
